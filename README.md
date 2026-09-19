@@ -85,7 +85,3 @@ If you use this code, please cite the manuscript:
   note    = {Under review}
 }
 ```
-
-## License
-
-_Add your chosen license here (e.g., MIT) before publishing._
