@@ -67,10 +67,6 @@ scipy
 
 - The 8-GPU ring-with-two-bridges topology is an **illustrative digital twin**, not a claim about the real physical topology of any specific NVIDIA product (real DGX-1 systems use a hybrid cube-mesh topology; real DGX A100 systems use a 6-NVSwitch full mesh).
 - The interference model's bandwidth constants are literature-sourced; the contention-onset and saturation constants are disclosed modeling assumptions, not calibrated values (see Section 2 of the notebook).
-- QAOA is validated at a single 8-qubit decision-window scale; claims about larger job queues (repeated application of this window) are not benchmarked end-to-end here.
-- No live Kubernetes/cluster-scheduler deployment was built; the interference-prediction and QAOA-scheduling components are evaluated in isolation.
-
-See the manuscript's Limitations section (and Section 12 of the notebook) for the full list.
 
 ## Citation
 
